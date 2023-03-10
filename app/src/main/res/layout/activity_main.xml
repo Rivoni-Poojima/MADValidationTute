@@ -4,9 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CDDC39"
     android:onClick="submit"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCancel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/btnCancel" />
 
     <TextView
         android:id="@+id/tvTitle"
@@ -80,6 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:layout_marginTop="29dp"
+        android:backgroundTint="#FF5722"
         android:onClick="submit"
         android:text="@string/btnConfirm" />
 
@@ -90,4 +100,11 @@
         android:layout_margin="16dp"
         android:layout_marginBottom="36dp"
         android:text="@string/btnCancel" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Button" />
 </LinearLayout>
